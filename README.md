@@ -1,15 +1,14 @@
-📊 Telecom Customer Churn Analysis
-📌 Project Objective
+# 📊 Telecom Customer Churn Analysis
+## 📌 Project Objective
 To analyze and predict customer churn in the telecom industry and derive actionable retention strategies using SQL, Python, and Power BI.
-🛠 Tools & Technologies
+## 🛠 Tools & Technologies
 Python: Pandas, NumPy, Scikit-learn
 SQL: MySQL (data aggregation & churn metrics)
 Power BI: Interactive dashboard & insights
 ML Model: Logistic Regression
 Explainability: Feature importance using model coefficients
-📂 Project Structure
-Copy code
 
+## 📂 Project Structure
 telecom-customer-churn-analysis/
 │
 ├── data/
@@ -27,55 +26,55 @@ telecom-customer-churn-analysis/
 │
 ├── README.md
 └── requirements.txt
-🔍 Analysis Workflow
-Data Aggregation (SQL)
-Overall churn rate
-Churn by contract type
-Churn distribution (Yes/No)
-Exploratory Data Analysis (Python)
+
+## 🔍 Analysis Workflow
+1. Data Aggregation (SQL)
+ Overall churn rate
+ Churn by contract type
+ Churn distribution (Yes/No)
+2. Exploratory Data Analysis (Python)
 Churn vs tenure
 Churn vs monthly charges
 Contract type impact
-Churn Prediction Model
+3. Churn Prediction Model
 Binary classification using Logistic Regression
 Model evaluation using accuracy score
-Model Explainability
+4. Model Explainability
 Feature importance using model coefficients
 Key drivers: Contract type, tenure, monthly charges
-Customer Segmentation
+5. Customer Segmentation
 Loyal customers
 Dormant customers
 At-risk customers
-Visualization
+6. Visualization
 Interactive Power BI dashboard
 Business-focused churn insights
-📈 Power BI Dashboard Insights
+
+## 📈 Power BI Dashboard Insights
 Overall churn percentage
 Churn rate by contract type
 Monthly charges vs churn
 Customer segmentation analysis
 Interactive filters for deeper insights
-📌 Key Findings
+
+## 📌 Key Findings
 Month-to-month contract customers have the highest churn rate
 Short-tenure customers are more likely to churn
 Higher monthly charges increase churn probability
-🎯 Final Outcome
+
+## 🎯 Final Outcome
 This project helps telecom companies:
 Identify high-risk customers
 Understand key churn drivers
 Improve customer retention strategies using data-driven insights
-🚀 How to Run the Project
-Install dependencies:
-Copy code
 
+## 🚀 How to Run the Project
+1. Install dependencies:
 pip install -r requirements.txt
-Open Jupyter Notebook:
-Copy code
-
+2. Open Jupyter Notebook:
 Telecom_Churn_Analysis.ipynb
-Open Power BI dashboard:
-Copy code
-
+3. Open Power BI dashboard:
 Telecom_Churn_Dashboard.pbix
-📌 Dataset Source
+
+## 📌 Dataset Source
 Kaggle – Telco Customer Churn Dataset
