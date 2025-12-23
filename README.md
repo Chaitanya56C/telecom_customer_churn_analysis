@@ -11,20 +11,11 @@ To analyze and predict customer churn in the telecom industry and derive actiona
  
 ## 📂 Project Structure
 telecom-customer-churn-analysis/
-- │
-- ├── data/
-- │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-- │
-- ├── sql/
-- │   └── churn_analysis.sql
-- │
-- ├── notebook/
-- │   └── Telecom_Churn_Analysis.ipynb
-- │
-- ├── report/
-- │   ├── Customer_Churn_Report.pptx
-- │   └── Telecom_Churn_Dashboard.pbix
-- │
+- ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
+- ├── churn_analysis.sql
+- ├── Telecom_Churn_Analysis.ipynb
+- ├── Customer_Churn_Report.pptx
+- ├── Telecom_Churn_Dashboard.pbix
 - ├── README.md
 - └── requirements.txt
 
